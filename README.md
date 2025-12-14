@@ -25,13 +25,13 @@ A polished portfolio site template to showcase your work, projects, and story—
 
 Edit `index.html` to update your personal information:
 
-- **Name and Title**: Update the hero section (line 30-35)
-- **About Me**: Edit the about section text (line 55-70)
-- **Contact Information**: Update email, phone, and location (line 195-215)
+- **Name and Title**: Update the hero section (line 37-38)
+- **About Me**: Edit the about section text (starting at line 56)
+- **Contact Information**: Update email, phone, and location (starting at line 218)
 
 ### 2. Projects
 
-Add or modify projects in the projects section (starting at line 85):
+Add or modify projects in the projects section (starting at line 86):
 
 ```html
 <div class="project-card">
@@ -57,7 +57,7 @@ Add or modify projects in the projects section (starting at line 85):
 
 ### 3. Skills
 
-Update your skills in the skills section (starting at line 140):
+Update your skills in the skills section (starting at line 167):
 
 - Add or remove skill categories
 - Modify skill tags to match your expertise
@@ -81,8 +81,8 @@ Customize the color scheme in `styles.css` by modifying the CSS variables (line 
 
 Update social media links in two places in `index.html`:
 
-1. **Hero section** (line 40-45)
-2. **Footer** (line 245-250)
+1. **Hero section** (lines 46-50)
+2. **Footer** (lines 268-272)
 
 Replace the placeholder URLs with your actual social media profiles.
 
