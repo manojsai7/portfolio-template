@@ -11,6 +11,8 @@ interface BlogPost {
   author: string;
 }
 
+// Server-side function to read blog posts from the file system
+// For larger sites, consider implementing caching or using a CMS
 function getBlogPosts(): BlogPost[] {
   const blogDir = path.join(process.cwd(), 'data/blog');
   

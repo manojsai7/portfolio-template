@@ -15,9 +15,17 @@ export default function Contact() {
     e.preventDefault();
     setStatus('sending');
 
-    // Simulate API call - replace with your actual API endpoint
+    // TODO: Replace this simulation with your actual API endpoint
+    // Example implementation:
+    // const response = await fetch('/api/contact', {
+    //   method: 'POST',
+    //   headers: { 'Content-Type': 'application/json' },
+    //   body: JSON.stringify(formData)
+    // });
+    // if (response.ok) { setStatus('sent'); } else { setStatus('error'); }
+    
     try {
-      // Example: await fetch('/api/contact', { method: 'POST', body: JSON.stringify(formData) });
+      // Simulated API call for template demo purposes
       await new Promise((resolve) => setTimeout(resolve, 1000));
       setStatus('sent');
       setFormData({ name: '', email: '', message: '' });
